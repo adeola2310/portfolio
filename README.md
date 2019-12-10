@@ -6,4 +6,4 @@ To run this project,
 
 Run npm install
 
-then do npm start
+then do npm start ( built on a live server)
