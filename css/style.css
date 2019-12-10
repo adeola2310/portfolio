@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+body {
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-weight: 400;
+  line-height: 1.6;
+  background-color: #041230; }
+
+.sidenav {
+  color: #fff;
+  font-size: 1.6rem; }
