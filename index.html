@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Adeola Adekoyejo</title>
+
     <link href="https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -17,11 +18,23 @@
          <hr class="navbar__line">
 
          <ul class="navbar__list">
-             <li class="item">Home</li>
-             <li class="item">Home</li>
-             <li class="item">Home</li>
-             <li class="item">Home</li>
+             <li class="item">
+                 <a href="#"> Home</a>
+             </li>
+             <li class="item">
+                 <a href="#about"> About</a>
+             </li>
+             <li class="item">
+                 <a href="#"> Projects</a>
+             </li>
+             <li class="item">
+                 <a href="#"> Contact</a>
+             </li>
+
          </ul>
+         <div class="cta">
+
+         </div>
      </nav>
         <div class="background">
             <div id="particles-js">
@@ -36,7 +49,16 @@
                 </div>
 
             </div>
+
+            <section id="about">
+          <p> this is my page</p>
+            </section>
         </div>
+
+
+
+
+
     </div>
 
 </div>
@@ -44,4 +66,31 @@
 </body>
 <script type="text/javascript" src="./particles.js"></script>
 <script type="text/javascript" src="./app.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+// Add smooth scrolling to all links
+$("a").on('click', function(event) {
+
+// Make sure this.hash has a value before overriding default behavior
+if (this.hash !== "") {
+// Prevent default anchor click behavior
+event.preventDefault();
+
+// Store hash
+var hash = this.hash;
+
+// Using jQuery's animate() method to add smooth page scroll
+// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+$('html, body').animate({
+scrollTop: $(hash).offset().top
+}, 800, function(){
+
+// Add hash (#) to URL when done scrolling (default click behavior)
+window.location.hash = hash;
+});
+} // End if
+});
+});
+</script>
 </html>

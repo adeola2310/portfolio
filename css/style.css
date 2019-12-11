@@ -16,6 +16,9 @@ body {
 .content {
   display: flex; }
 
+.about {
+  margin-top: 3.5rem; }
+
 .navbar {
   background-color: #041230;
   display: flex;
@@ -31,9 +34,23 @@ body {
     margin-top: 6rem; }
   .navbar__list {
     margin-top: 2.5rem;
-    padding: 5rem; }
-  .navbar__item {
-    list-style: none; }
+    padding: 4rem; }
+
+.item {
+  list-style: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  padding: 15px; }
+
+.item a {
+  text-decoration: none;
+  color: white; }
+
+.item a:hover {
+  cursor: pointer;
+  transform: translateX(2);
+  background-color: #fff;
+  color: #000000; }
 
 .background {
   width: 100%; }
@@ -60,10 +77,12 @@ body {
   color: #fff;
   font-size: 4rem;
   display: flex;
+  text-transform: uppercase;
   justify-content: center; }
 
 .text-typing {
   color: orange;
   display: flex;
+  text-align: center;
   justify-content: center;
   font-size: 2.5rem; }

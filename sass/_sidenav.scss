@@ -18,9 +18,25 @@
 
   &__list{
     margin-top: 2.5rem;
-    padding: 5rem;
+    padding: 4rem;
   }
-  &__item{
-    list-style: none;
-  }
+
+}
+.item{
+  list-style: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+.item a{
+   text-decoration: none;
+  color: white;
+}
+
+.item a:hover{
+  cursor: pointer;
+  transform: translateX(2);
+  background-color: $color-light;
+  color: #000000;
 }
