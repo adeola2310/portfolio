@@ -14,10 +14,15 @@ body{
   font-family: 'Goudy Bookletter 1911', serif;
   font-weight: 400;
   line-height: 1.6;
-  background-color: $color-primary;
-
 }
 
 .container{
 
+  background-color: $color-light;
+  min-height: 100vh;
+  max-width: 100%;
+}
+
+.content{
+  display: flex;
 }

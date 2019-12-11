@@ -6,9 +6,64 @@
 body {
   font-family: 'Goudy Bookletter 1911', serif;
   font-weight: 400;
-  line-height: 1.6;
-  background-color: #041230; }
+  line-height: 1.6; }
 
-.sidenav {
+.container {
+  background-color: #fff;
+  min-height: 100vh;
+  max-width: 100%; }
+
+.content {
+  display: flex; }
+
+.navbar {
+  background-color: #041230;
+  display: flex;
   color: #fff;
-  font-size: 1.6rem; }
+  flex-direction: column;
+  flex: 0 0 15%;
+  min-height: 100vh; }
+  .navbar__logo {
+    font-size: 2.4rem;
+    color: white;
+    text-decoration: none;
+    margin-left: 4rem;
+    margin-top: 6rem; }
+  .navbar__list {
+    margin-top: 2.5rem;
+    padding: 5rem; }
+  .navbar__item {
+    list-style: none; }
+
+.background {
+  width: 100%; }
+
+#particles-js {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(7, 23, 55, 0.8), rgba(7, 23, 55, 0.8)), url("https://res.cloudinary.com/upperli/image/upload/v1574344841/_MG_0130_re6qmd.jpg"); }
+
+.title {
+  display: flex;
+  justify-content: center; }
+
+.profile-container {
+  padding-top: 12rem; }
+
+.img-profile {
+  border-radius: 50%;
+  border: 6px solid rgba(7, 23, 55, 0.8);
+  width: 12rem;
+  height: 12rem; }
+
+.name-style {
+  color: #fff;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center; }
+
+.text-typing {
+  color: orange;
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem; }

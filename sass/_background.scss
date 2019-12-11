@@ -1,0 +1,39 @@
+.background{
+  width: 100%;
+  //overflow: hidden;
+  //height: 100vh;
+}
+
+#particles-js{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(7,23,55,.8),rgba(7,23,55,.8)), url("https://res.cloudinary.com/upperli/image/upload/v1574344841/_MG_0130_re6qmd.jpg");
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+
+}
+.profile-container{
+padding-top: 12rem;
+}
+.img-profile{
+  border-radius: 50%;
+  border: 6px solid rgba(7, 23, 55, .8);
+  width: 12rem;
+  height: 12rem;
+}
+.name-style{
+  color: $color-light;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+
+}
+.text-typing{
+  color: orange;
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
+}

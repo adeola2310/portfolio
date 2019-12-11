@@ -1,4 +1,26 @@
-.sidenav{
+.navbar{
+  background-color: $color-primary;
+  display: flex;
   color: $color-light;
-  font-size: 1.6rem;
+  flex-direction: column;
+  flex: 0 0 15%;
+  min-height: 100vh;
+
+  &__logo{
+    font-size: 2.4rem;
+    color: white;
+    text-decoration: none;
+    margin-left: 4rem;
+    margin-top: 6rem;
+  }
+  &__line{
+  }
+
+  &__list{
+    margin-top: 2.5rem;
+    padding: 5rem;
+  }
+  &__item{
+    list-style: none;
+  }
 }
