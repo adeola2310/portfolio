@@ -36,7 +36,8 @@
 
 .item a:hover{
   cursor: pointer;
-  transform: translateX(2);
+  //transform: translateX(5);
+  padding: 1rem 2rem;
   background-color: $color-light;
   color: #000000;
 }
