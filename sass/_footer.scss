@@ -1,7 +1,8 @@
-.footer{
-  display: flex;
+.footer__item{
+  margin-bottom: 80rem;
+}
 
-  &__item{
-
-  }
+.item{
+  list-style: none;
+  display: inline-flex;
 }

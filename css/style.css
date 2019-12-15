@@ -41,8 +41,12 @@ p {
   padding: 15px 35px;
   cursor: pointer; }
 
-.footer {
-  display: flex; }
+.footer__item {
+  margin-bottom: 80rem; }
+
+.item {
+  list-style: none;
+  display: inline-flex; }
 
 .navbar {
   background-color: #041230;
@@ -72,10 +76,28 @@ p {
   color: white; }
 
 .item a:hover {
-  cursor: pointer;
-  padding: 1rem 2rem;
-  background-color: #fff;
-  color: #000000; }
+  cursor: pointer; }
+
+.project {
+  background-color: #f2f2f2;
+  margin: 150px 0; }
+
+.project-head {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 25px; }
+
+.project-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 5.5rem;
+  padding-bottom: 2.5rem;
+  grid-column-gap: 1.3rem;
+  grid-row-gap: 1.3rem; }
+
+.proj_1 {
+  width: 100%; }
 
 .background {
   width: 100%; }
@@ -111,3 +133,21 @@ p {
   text-align: center;
   justify-content: center;
   font-size: 2.5rem; }
+
+.experience {
+  background-color: #f2f2f2; }
+
+.exp_head {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  margin: 5.5rem; }
+
+black
+.card-experience {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
+.card {
+  background-color: #fff;
+  border-radius: 5px; }
