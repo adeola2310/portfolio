@@ -81,6 +81,10 @@
             <section id="project" class="project">
                 <div class="project-head">
                     <h3> My Projects</h3>
+                    <div class="tabs">
+                        <div class="tab is-tab-selected">Web Apps</div>
+                        <div class="tab">Designs</div>
+                    </div>
                 </div>
                 <div class="project-list">
                <img src="images/afri.png" alt="" class="proj_1">
@@ -99,14 +103,61 @@
 
                 <div class="card-experience">
                  <div class="card">
-                   <h6> Date</h6>
-                     <h2> Itex INtegrtaed System</h2>
+                     <div class="details">
+                         <h6> September 2019 - Till Present</h6>
+                         <h2> Itex Integrated System</h2>
+                         <h4>Front end Developer </h4>
+                         <p>A thorough and explicit design functionalities on the website Responsible for the user interface of the application, both from the portal and admin dashboard</p>
+                    <p style="color: darkcyan">Tools used: Angular, .NET</p>
+                     </div>
+
                  </div>
                  <div class="card">
-                   <h6> Date</h6>
-                     <h2> Itex INtegrtaed System</h2>
+                     <div class="details">
+                         <h6> October 2018 - August 2019</h6>
+                         <h2> Upperlink Limited</h2>
+                         <h4>Front end Developer </h4>
+                         <p>Worked on the templates users pick to create their various websites I consumed various APIs on the front end for the web application. Also worked on the Web front end for a Point of Sale application(shopChoice)</p>
+                         <p style="color: darkcyan">Tools used: Angular, MongoDB, NodeJs</p>
+                     </div>
+
+                 </div>
+                 <div class="card">
+                     <div class="details">
+                         <h6> March 2018 - May 2018</h6>
+                         <h2> REACH Africa</h2>
+                         <h4>Front end Developer </h4>
+                         <p>An intense work with REACH as a front end developer (Android) Created a financial plan interface for the REACH App</p>
+                         <p style="color: darkcyan">Tools used: Java(Android)</p>
+                     </div>
+
+                 </div>
+                 <div class="card">
+                     <div class="details">
+                         <h6> September 2019 - November 2019</h6>
+                         <h2> Hotels.ng</h2>
+                         <h4>Front end Developer </h4>
+                         <p>An intense work with Hotels.ng as a front end developer intern. Created web applications (wikipoli.gq and Lancers)</p>
+                         <p style="color: darkcyan">Tools used: HTML, CSS, JS, PHP</p>
+                     </div>
+
                  </div>
                 </div>
+            </section>
+
+            <section class="contact">
+         <div class="contact-me">
+             <h4> Get in Touch</h4>
+         </div>
+                <form class="form-contact">
+                    <input type="text" name="name" placeholder="Your name" required>
+                <br>
+                    <input type="text" name="name" placeholder="Your name" required>
+<br>
+                    <textarea placeholder="type your message"></textarea>
+               <br>
+                    <button class="submit">Send</button>
+                </form>
             </section>
 
 
@@ -124,6 +175,15 @@
 <script type="text/javascript" src="./particles.js"></script>
 <script type="text/javascript" src="./app.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    var $tabs = $('.tabs .tab');
+
+    $tabs.click(function(event) {
+        var selectedClass = 'is-tab-selected';
+        $tabs.removeClass(selectedClass);
+        $(event.target).addClass(selectedClass);
+    });
+</script>
 <script>
 $(document).ready(function(){
 // Add smooth scrolling to all links

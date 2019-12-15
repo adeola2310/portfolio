@@ -82,6 +82,26 @@ p {
   background-color: #f2f2f2;
   margin: 150px 0; }
 
+.tabs {
+  /**
+   * Setting display to flex makes this container lay
+   * out its children using flexbox, the exact same
+   * as in the above "Stepper input" example.
+   */
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid orange; }
+
+.tab {
+  cursor: pointer;
+  padding: 5px 30px;
+  color: orange;
+  font-size: 12px;
+  border-bottom: 2px solid transparent; }
+
+.tab.is-tab-selected {
+  border-bottom-color: orange; }
+
 .project-head {
   font-size: 1.8rem;
   text-transform: uppercase;
@@ -135,19 +155,51 @@ p {
   font-size: 2.5rem; }
 
 .experience {
-  background-color: #f2f2f2; }
+  background-color: #f2f2f2;
+  margin: 150px 0; }
 
 .exp_head {
   text-align: center;
   text-transform: uppercase;
   font-size: 1.8rem;
-  margin: 5.5rem; }
+  padding: 4rem; }
 
-black
 .card-experience {
   display: grid;
-  grid-template-columns: 1fr 1fr; }
+  grid-column-gap: .5rem;
+  grid-row-gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 5rem; }
 
 .card {
   background-color: #fff;
-  border-radius: 5px; }
+  border-radius: 5px;
+  margin-left: 5rem; }
+
+h6 {
+  color: burlywood;
+  font-size: 1.4rem; }
+
+.details {
+  padding: 25px 40px; }
+
+.contact-me {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.6rem; }
+
+.form-contact {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem; }
+
+input[type="text"] {
+  max-height: 10%; }
+
+.submit {
+  background-color: orange;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 3px;
+  padding: 10px 15px; }
